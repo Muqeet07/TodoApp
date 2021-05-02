@@ -1,0 +1,201 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.todoappcontainer {
+    width: 100%;
+    color: whitesmoke;
+}
+
+/* CONTENT CONTAINER STYLING*/
+
+.contentcontainer {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 542px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: crimson;
+}
+
+/* FORM STYLING */
+
+.formcontainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formcontainer .input {
+    box-sizing: border-box;
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 12pt;
+}
+
+.formcontainer .button {
+    box-sizing: border-box;
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: darkslategray;
+    font-size: 12pt;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.formcontainer .button:hover {
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+/* TODO LIST STYLING */
+
+.todolistcontainer {
+    
+    
+}
+
+/* TODO STYLING */
+
+.todocontainer {
+    margin-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todocontainer .todo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+
+.todocontainer .todo span {
+    line-height: 30px;
+    font-size: 14pt;
+}
+
+/* BUTTON STYLING */
+
+.buttonscontainer {
+    height: 30px;
+}
+
+.buttonscontainer .deletebutton, .completebutton {
+    height: 30px;
+    margin-left: 20px;
+    width: 90px;
+    border-radius: 30px;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.buttonscontainer .deletebutton {
+    background-color: red;
+}
+
+.buttonscontainer .completebutton {
+    background-color: green;
+}
+
+
+
+/* RESPONSIVE STYLE */
+
+@media (max-width: 630px) {
+    /* form */
+
+    
+.formcontainer .input {
+    box-sizing: border-box;
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 10pt;
+}
+    
+.formcontainer .button {
+    box-sizing: border-box;
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: darkslategray;
+    font-size: 10pt;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+/* list styling */
+.todocontainer{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.todocontainer .todo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+
+.todocontainer .todo span {
+    line-height: 30px;
+    font-size: 10pt;
+}
+
+/* BUTTON STYLING */
+
+.buttonscontainer {
+    height: 30px;
+}
+
+.buttonscontainer .deletebutton, .completebutton {
+    height: 30px;
+    margin-left: 20px;
+    width: 90px;
+    border-radius: 30px;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+  }
